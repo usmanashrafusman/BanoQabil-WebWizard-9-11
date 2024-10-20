@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p,
+h1 {
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+}
+
+.box {
+    height: 500px;
+    width: 300px;
+    background-color: #34b58aab;
+    margin: 20px;
+}
+
+.box p {
+    font-size: 1em;
+    text-shadow: -1px -1px 7px red;
+}
+
+#about {
+    background-color: chartreuse;
+}
+
+.box2 {
+    height: 500px;
+    width: 500px;
+    background-color: burlywood;
+}
+
+.box2>div>h1 {
+    color: blue;
+}
+
+.box2>div>h1~p {
+    color: red;
+}
