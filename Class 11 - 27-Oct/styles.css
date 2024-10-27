@@ -1,0 +1,29 @@
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.coming-soon {
+    display: none;
+}
+
+.show-btn:hover+.coming-soon {
+    display: inline;
+}
+
+
+img {
+    display: block;
+}
+
+div.box {
+    background-color: blueviolet;
+    height: 200px;
+    width: 300px;
+    box-shadow: 1px -2px 7px 6px #b64dff;
+    border-radius: 20px
+}
+
+ol {
+    list-style-image: url('bullet.png');
+}
